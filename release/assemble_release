@@ -1,0 +1,8 @@
+echo Creating release file structure
+mkdir -p GameData/VesselCategorizer
+cp ../files/changelog.txt GameData/VesselCategorizer
+cp ../files/*.cfg GameData/VesselCategorizer
+cp ../src/bin/Release/VesselCategorizer.dll GameData/VesselCategorizer
+cp ../LICENSE GameData/VesselCategorizer
+cp ../README.md GameData/VesselCategorizer
+echo Done.
