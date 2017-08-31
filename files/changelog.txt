@@ -1,2 +1,7 @@
-Version 1.0  (CURRENT VERSION)
-* Initial release.
+Version 1.1  (CURRENT VERSION)
+* Add the ability for the player to select vessel type in the vehicle editor.
+* Include ModuleManager 2.8.1 (required for the new functionality).
+
+
+Version 1.0  (2017-08-24)
+* Initial release. Supports categorizing vessels based on ship name.

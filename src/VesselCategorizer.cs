@@ -38,9 +38,13 @@ namespace VesselCategorizer
         /// <param name="vessel"></param>
         private void OnVesselLaunch(Vessel vessel)
         {
-            if (NameCategorizer.TryCategorize(vessel)) return;
-            // FUTURE: add more logic here, if we add other categorization techniques later
+            // First, see if the user manually assigned a vessel type in the editor.
+            if (ModuleVesselCategorizer.TryCategorize(vessel)) return;
 
+            // Nope. Well, can we assign a vessel type based on the name?
+            if (NameCategorizer.TryCategorize(vessel)) return;
+
+            // Still nope.  Okay, all out of ideas, we'll just leave it alone.
             Logging.Log("No changes made to vessel type for " + vessel.vesselName);
         }
     }
