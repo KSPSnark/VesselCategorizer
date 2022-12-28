@@ -1,4 +1,9 @@
-Version 1.1  (CURRENT VERSION)
+Version 1.1.1  (2022-12-28)
+* Change mod license to MIT (was previously the more restrictive CC-BY-NC-ND).  Fly, be free!
+* Otherwise identical to 1.1.
+
+
+Version 1.1  (2017-08-31)
 * Add the ability for the player to select vessel type in the vehicle editor.
 * Include ModuleManager 2.8.1 (required for the new functionality).
 
